@@ -26,7 +26,7 @@ public class Producer extends Thread {
         this.sharedLocation = shared;
         this.x = 0;
         this.y = 400;
-        this.object = new Ball(0, 400);
+        this.object = new Ball(0, 430);
         setImages();
     }
 
